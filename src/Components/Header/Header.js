@@ -29,12 +29,13 @@ const Header = () => {
       <header className={`header ${showSearch ? "header-white" : ""}`}>
         <div className="logo">LOGO</div>
         <nav className="nav">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="#">Olaf for business</a>
+          <a href="#">Write a review</a>
+          <a href="#">About Us</a>
         </nav>
         <div className="header-right">
           <button className="search-btn" onClick={() => setShowSearch(!showSearch)}>🔍</button>
+          <button className="signup-btn">Login</button>
           <button className="signup-btn">Sign Up</button>
         </div>
       </header>
